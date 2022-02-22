@@ -1,0 +1,115 @@
+html{
+	direction:rtl;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.pagename{
+	width:100%;
+	height:100px;
+	background:rgb(100,100,100);
+}
+
+h1,h2{
+	font-family:algerian ;
+    color:#234567;
+    text-align: center;
+	margin:auto;
+	font-size: 35px;
+
+}
+	h1{
+	font-family:italic ;
+	font-size: 50px;
+	}
+body{
+	background-image: url('luffy.jpg');
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+.menu{
+	width: 100%;
+	height: 100px;
+	background:#234567;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li {
+	display: inline-block;
+     margin:22px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+.action ,.menu ul li a:hover{
+	background:black;
+	border-radius: 15px;
+}
+.sous-menu-1{
+	
+	display: none;
+}
+.menu ul li:hover .sous-menu-1{
+	display: block;
+	position:absolute;
+	margin-top: 15px;
+}
+.sous-menu-1 ul{
+	display: block;
+	background:#234567;
+	margin-left: 25px;
+}
+
+img{
+	border: 2px solid #234567;
+	width:180px;
+	height:180px;
+	margin:3px;
+}
+
+fieldset{
+	border: 3px solid #234567;
+}
+legend{
+   font-size:20px;
+   color:white;
+   background-color:black;
+}
+select{
+	font-size:20px;
+}
+input{
+	margin-top: 15px;
+}
+.movie1{
+	margin-top:0;
+	width: 100%;
+	height: 650px;
+    background:white;
+}
+.img1{
+	width: 200px;
+	height:300px;
+	border: 6px solid #234567 ;
+	margin:20px 500px 20px 2px;
+}
+.paraghraphe{
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+   font-family: italic;
+   font-size: 30px;
+   color: #234567;
+} 
+.input-text{
+	margin-right: 35%;
+}
+.movie1-1{
+	width: 100%;
+	height: 80px;
+	background: black;
+}
